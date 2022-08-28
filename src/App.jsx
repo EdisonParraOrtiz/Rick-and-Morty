@@ -4,6 +4,7 @@ import './App.css'
 import CardResident from './components/CardResident'
 import LocationInfo from './components/LocationInfo'
 import useFetch from './hooks/useFetch'
+import Rick from '../public/Images/header_Rick and Morty.png'
 
 function App() {
 
@@ -38,7 +39,7 @@ function App() {
   return (
     <div className="App">
       <div className = 'contendor-image'>
-        <img className = 'image' src="../public/Images/header_Rick and Morty.png" alt="Tittle Rick and Morty" />
+        <img className = 'image' src={Rick} />
       </div>
       <form className = 'contendor-formulario' onSubmit={handleSubmit}>
         <input className = 'contendor-input' id='search' type="text" />
