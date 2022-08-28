@@ -42,7 +42,7 @@ function App() {
         <img className = 'image' src={Rick} />
       </div>
       <form className = 'contendor-formulario' onSubmit={handleSubmit}>
-        <input className = 'contendor-input' id='search' type="text" />
+        <input className = 'contendor-input' id='search' type="text"  placeholder='Digite un número'  />
         <button>Search</button>
       </form>
       <LocationInfo  location = {location} />
